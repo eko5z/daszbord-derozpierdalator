@@ -1,0 +1,33 @@
+/* Header */
+#app > div.v-application--wrap > main > div > div.container.container--fluid > div:nth-child(1) {
+	display: none !important;
+}
+
+/* Taka dziwna linia dzieląca segmenty */
+#app > div > main > div > div.container.container--fluid > hr {
+	display: none !important;
+}
+
+#app > div.v-application--wrap > main > div > div.container.container--fluid > div:nth-child(3) > aside > span:after {
+	content: " Derozpierdolated";
+}
+
+#app > div > main > div > div.container.container--fluid > div:nth-child(3) > div > section > form > div > div.col-md-4.col-12 > div.v-alert.hint.mt-2.v-sheet.v-sheet--outlined.theme--dark.v-alert--outlined.info--text {
+	display: none !important;
+}
+
+#app > div > main > div > div.container.container--fluid > div:nth-child(3) > div > section > form > div > div.col-md-4.col-12 > div:nth-child(7) {
+	display: none !important;
+}
+
+#app > div > main > div > div.container.container--fluid > div:nth-child(3) > div > section > form > div > div.col-md-4.col-12 > div:nth-child(9) {
+	display: none !important;
+}
+
+#app > div > main > div > div.container.container--fluid > div:nth-child(3) > div > section > form > div > div.col-md-4.col-12 > div:nth-child(11) > div {
+	display: none !important;
+}
+
+#app > div > main > div > div.container.container--fluid > div:nth-child(3) > div > section > div.v-alert.v-sheet.theme--dark.rounded-0.faded.darken-4 {
+	display: none !important;
+}
