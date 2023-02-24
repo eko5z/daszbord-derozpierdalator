@@ -1,0 +1,54 @@
+/* Rzeczy daszbord-derozpierdalatora. */
+#dd-header {
+	background: #373737;
+}
+
+.dd-dropdown {
+	position: relative;
+	display: inline-block;
+	z-index: 1;
+}
+
+.dd-dropdown button {
+	padding: 8px;
+}
+
+.dd-dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 100%;
+	background: #373737;
+}
+
+.dd-dropdown-content a {
+	padding: 8px;
+	display: block;
+}
+
+.dd-dropdown-content a:hover {
+	background: #616161;
+}
+
+.dd-dropdown:hover .dd-dropdown-button {
+	background: #616161;
+}
+
+.dd-dropdown:hover .dd-dropdown-content {
+	display: block;
+}
+
+/* Header */
+#app > div.v-application--wrap > main > div > div.container.container--fluid > div:nth-child(2) {
+	display: none !important;
+}
+
+/* Sidebar. */
+#app > div > main > div > div.container.container--fluid > div:nth-child(4) > aside {
+	display: none !important;
+}
+
+/* Główne. */
+#app > div > main > div > div.container.container--fluid > div:nth-child(4) > div {
+	flex: 0 0 100%;
+	max-width: 100%;
+}

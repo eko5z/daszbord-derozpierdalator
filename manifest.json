@@ -7,8 +7,8 @@
 	"description": "Ten dodatek sprawia, że pisanie na dashboardzie jest przyjemnością.",
 	"author": "Emil Kosz",
 
-	"version": "0.1",
-	"version_name": "0.1 alfa",
+	"version": "0.2",
+	"version_name": "0.2 alfa",
 
 	"icons": {
 		"16": "ikony/ikona16.png",
@@ -18,7 +18,8 @@
 	},
 
 	"content_scripts": [ {
-		"css": [ "styl.css" ],
-		"matches": [ "*://radio17.pl/dashboard/*" ]
+		"js": [ "zawartosc.js" ],
+		"css": [ "zawartosc.css" ],
+		"matches": [ "*://radio17.pl/dashboard*" ]
 	} ]
 }
